@@ -1,0 +1,31 @@
+.journal-component {
+    width: 100%;
+    height: 100%;
+    padding: $componentpadding;
+    background: $blue;
+}
+
+h2 {
+    margin-bottom: $componentmargin;
+}
+
+.journal-form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    width: 100%;
+    background: $pink;
+}
+
+.input {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#title-input {
+    height: 50px;
+    font: {
+        size: $psize;
+    }
+    
+}

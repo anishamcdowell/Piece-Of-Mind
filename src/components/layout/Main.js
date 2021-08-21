@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Journal from './Journal';
 
 const Main = () => {
     return (
-        <main>
-            <p>Journal Component</p>
+        <main className=".App-main">
+            <Journal />
         </main>
     )
 }

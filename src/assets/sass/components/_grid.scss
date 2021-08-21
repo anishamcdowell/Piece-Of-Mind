@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: $componentmargin;
+
+    h2 {
+        margin: 0;
+    }
+}
+
+.options-container {
+    display: flex;
+    flex-flow: row wrap;
+
+    span {
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+}

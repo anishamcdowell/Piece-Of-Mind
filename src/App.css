@@ -9,6 +9,42 @@
   padding-bottom: 1rem;
 }
 
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.options-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.options-container span {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
 .square {
   width: 2.5rem;
   height: 2.5rem;
@@ -121,7 +157,6 @@ html {
   width: -moz-fit-content;
   width: fit-content;
   height: 100%;
-  background: #F2B988;
 }
 
 .mood-grid {
@@ -144,5 +179,49 @@ html {
 
 .p-text {
   font-size: 1.75rem;
+}
+
+.App-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  justify-items: center;
+}
+
+.journal-component {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background: #307CBF;
+}
+
+h2 {
+  margin-bottom: 3rem;
+}
+
+.journal-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  background: #F2BBD9;
+}
+
+.input {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#title-input {
+  height: 50px;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=App.css.map */
