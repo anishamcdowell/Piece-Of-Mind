@@ -1,0 +1,35 @@
+h1 {
+    color: $blue;
+    font: {
+        family: $h1font;
+        size: $h1size;
+    }
+}
+
+h2 {
+    color: $red;
+    font: {
+        family: $caveat;
+        size: $h2size;
+    }
+}
+
+h3 {
+    color: $orange;
+    font: {
+        family: $caveat;
+        size: $h3size;
+    }
+}
+
+p {
+    color: $blue;
+    line-height: 2.5rem;
+    letter-spacing: .05rem;
+    padding: 2rem;
+    font: {
+        family: $amatic;
+        size: $psize;
+        weight: bold;
+    }
+}

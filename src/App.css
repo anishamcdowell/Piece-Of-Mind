@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+h1 {
+  color: #307CBF;
+  font-family: "Homemade Apple", cursive;
+  font-size: 5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #F28177;
+  font-family: "Caveat", cursive;
+  font-size: 4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  color: #F29F80;
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  color: #307CBF;
+  line-height: 2.5rem;
+  letter-spacing: .05rem;
+  padding: 2rem;
+  font-family: "Amatic SC", cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+html {
+  font-size: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background: #F2BBD9;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=App.css.map */
