@@ -23,13 +23,10 @@ h3 {
 }
 
 p {
-    color: $blue;
-    line-height: 2.5rem;
-    letter-spacing: .05rem;
-    padding: 2rem;
+    color: rgb(151, 0, 88);
+    line-height: 2rem;
     font: {
-        family: $amatic;
+        family: $lateef;
         size: $psize;
-        weight: bold;
     }
 }
