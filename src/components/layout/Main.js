@@ -3,7 +3,7 @@ import Journal from './Journal';
 
 const Main = () => {
     return (
-        <main className=".App-main">
+        <main className="App-main">
             <Journal />
         </main>
     )

@@ -19,14 +19,14 @@ const Nav = () => {
             <div className="btn-div">
                 <Button 
                     text      = "Login" 
-                    bgcolor   = {blue}
+                    bgColor   = {blue}
                     color = "#fff"
                     fontSize  = "1.5rem"
                     marginR   = "1rem"
                 />
                 <Button 
                     text      = "Signup"
-                    bgcolor   = {blue}
+                    bgColor   = {blue}
                     color     = "#fff"
                     fontSize  = "1.5rem"
                 />

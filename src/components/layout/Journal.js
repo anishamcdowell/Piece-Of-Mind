@@ -27,12 +27,11 @@ const Journal = () => {
           className="input"
           id="entry-input"
           type="text"
+          rows="20"
           name="myInput"
-          rows="4"
-          placeholder="Journal Entry"
           required
         />
-        <div id="buttons">
+        <div className="btn-container">
           <Button
             text="Save"
             bgColor="green"
