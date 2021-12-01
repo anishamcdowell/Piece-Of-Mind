@@ -1,4 +1,4 @@
-//installations
+// dependency installations
 const express = require('express');
 const mongoose = require('mongoose');
 const PORT = process.env.PORT || 3001;
@@ -7,7 +7,11 @@ require('dotenv/config');
 //execute express
 const app = express();
 
-//middleware
+// import routes
+const entriesRoutes = require('./routes/entries.js');
+
+// middleware - aka, use imported routes
+app.use('/entries', entriesRoutes);
 
 //routes
 app.get('/', (req, res) => {

@@ -1,4 +1,3 @@
-import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
 import BodyGrid from './components/layout/BodyGrid';
 
