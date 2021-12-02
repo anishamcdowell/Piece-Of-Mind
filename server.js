@@ -10,7 +10,7 @@ const app = express();
 // import routes
 const entriesRoutes = require('./routes/entries.js');
 
-// middleware - aka, use imported routes
+// use imported routes as middleware
 app.use('/entries', entriesRoutes);
 
 //routes
@@ -30,8 +30,3 @@ async function main() {
 app.listen(PORT, () => {
   console.log(`App running on port: ${PORT}`);
 });
-
-// const path = require('path');
-// app.use(express.urlencoded({ extended: true}));
-// app.use(express.json());
-// app.use(express.static("public"));
